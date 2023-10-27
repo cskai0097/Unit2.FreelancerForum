@@ -55,6 +55,7 @@ const updateAverageStartingPrice = () => {
         $${freelancer.startingPrice})`;
         freelancerList.appendChild(listItem);
     }
+    updateAverageStartingPrice();
     
     
 
